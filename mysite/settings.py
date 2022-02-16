@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog.apps.BlogConfig',
 ]
 
 MIDDLEWARE = [
@@ -128,5 +129,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # see https://help.pythonanywhere.com/pages/DjangoStaticFiles for more info
 MEDIA_ROOT = '/home/pywebseit/mysite/media'
 MEDIA_URL = '/media/'
-STATIC_ROOT = '/home/pywebseit/mysite/static'
-STATIC_URL = '/static/'
+# STATIC_ROOT = '/home/pywebseit/mysite/static'
+# STATIC_URL = '/static/'
